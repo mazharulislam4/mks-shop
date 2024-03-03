@@ -1,0 +1,23 @@
+[
+  {
+    "page": "Home",
+    "id": 1,
+    "link": "/"
+  },
+  {
+    "page": "shop",
+    "id": 2,
+    "link": "/shop"
+  },
+  {
+    "page": "Product",
+    "id": 3,
+    "link": "/product",
+    "arrow": true
+  },
+  {
+    "page": "Contact Us",
+    "id": 4,
+    "link": "/contact"
+  }
+]

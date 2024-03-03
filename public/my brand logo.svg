@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 370.53 59.96">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: #15b5b0;
+      }
+
+      .cls-1, .cls-4 {
+        letter-spacing: .05em;
+      }
+
+      .cls-5 {
+        fill: #65c8d0;
+        letter-spacing: .05em;
+      }
+
+      .cls-6 {
+        letter-spacing: .05em;
+      }
+
+      .cls-6, .cls-4, .cls-7 {
+        fill: #f652a0;
+      }
+
+      .cls-2 {
+        letter-spacing: .04em;
+      }
+
+      .cls-8 {
+        font-family: NDLOGOS, 'ND LOGOS';
+        font-size: 54.7px;
+      }
+
+      .cls-3 {
+        letter-spacing: .07em;
+      }
+
+      .cls-7 {
+        letter-spacing: .03em;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <text class="cls-8" transform="translate(0 46.5)"><tspan class="cls-3" x="0" y="0">M</tspan><tspan class="cls-2" x="61.57" y="0">K</tspan><tspan class="cls-1" x="114.27" y="0">S</tspan><tspan class="cls-5" x="174.29" y="0"> </tspan><tspan class="cls-6" x="190.6" y="0">D</tspan><tspan class="cls-7" x="250.91" y="0">E</tspan><tspan class="cls-4" x="310.42" y="0">V</tspan></text>
+  </g>
+</svg>
