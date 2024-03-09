@@ -1,6 +1,6 @@
-import ProductDetails from "../components/productDetails/productDetails";
-import CustomerReviews from "../components/section/shop/customerReviews";
-import Breadcrumb from "../components/widgets/breadcrumb";
+import ProductDetails from "@/components/productDetails/productDetails";
+import CustomerReviews from "@/components/section/shop/customerReviews";
+import Breadcrumb from "@/components/widgets/breadcrumb";
 function ProductPage() {
   return (
     <>

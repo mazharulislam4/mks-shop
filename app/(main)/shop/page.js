@@ -1,7 +1,7 @@
 
-import ShopTopBar from "../components/topbar/shopTopbar";
+import ShopTopBar from "@/components/topbar/shopTopbar";
 
-import ProductsSection from "../components/section/shop/productSection";
+import ProductsSection from "@/components/section/shop/productSection";
 function ShopPage({ params }) {
 
   

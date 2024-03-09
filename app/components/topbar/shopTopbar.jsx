@@ -1,14 +1,12 @@
 "use client";
 
-import { isFilterBtnActive } from "@/app/utility/uiUtils";
+import { isFilterBtnActive } from "@/utils/uiUtis";
 import { BiSolidGrid } from "react-icons/bi";
 import { CiGrid2H, CiGrid2V } from "react-icons/ci";
 import { HiViewGrid } from "react-icons/hi";
 import { MdOutlineFilterList } from "react-icons/md";
 
 function ShopTopBar({ title }) {
-
-
   return (
     <div className="flex  lg:flex-row flex-col items-center gap-4 mb-8">
       <div className="flex  order-2 lg:order-1 items-start justify-between w-full">

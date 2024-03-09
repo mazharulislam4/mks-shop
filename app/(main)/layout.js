@@ -1,10 +1,10 @@
+import Provider from "@/Provider";
+import Footer from "@/components/footer/footer";
+import MainNavbar from "@/components/navbar/mainNavbar";
+import { inter, open_sans } from "@/fonts";
+import "@/globals.css";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
-import Provider from "./Provider";
-import Footer from "./components/footer/footer";
-import MainNavbar from "./components/navbar/mainNavbar";
-import { inter, open_sans } from "./fonts";
-import "./globals.css";
 
 export const metadata = {
   title: "MKS SHOP",

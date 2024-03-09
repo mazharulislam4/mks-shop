@@ -7,7 +7,7 @@ function Logo() {
       <Image
         src={"/my brand logo.svg"}
         alt="logo"
-        width={180}
+        width={120}
         height={80}
         style={{ aspectRatio: "9/4"  , height:"auto"}}
         priority

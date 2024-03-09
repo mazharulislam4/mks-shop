@@ -1,13 +1,13 @@
+import juniorSet from "@/assets/collection/junior set.png";
+import mensSet from "@/assets/collection/mens set.png";
+import FeatureProduct from "@/components/banner/featureProduct";
+import BlogCard from "@/components/card/blogCard";
+import CollectionCard from "@/components/card/collectionCard";
+import Category from "@/components/category/category";
+import Hero from "@/components/hero/hero";
+import Offer from "@/components/offer/offer";
 import Link from "next/link";
 import { IoIosArrowRoundForward } from "react-icons/io";
-import juniorSet from "./assets/collection/junior set.png";
-import mensSet from "./assets/collection/mens set.png";
-import FeatureProduct from "./components/banner/featureProduct";
-import BlogCard from "./components/card/blogCard";
-import CollectionCard from "./components/card/collectionCard";
-import Category from "./components/category/category";
-import Hero from "./components/hero/hero";
-import Offer from "./components/offer/offer";
 
 
 export default function Home() {

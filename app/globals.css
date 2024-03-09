@@ -36,7 +36,8 @@
   --xl: 1280px;
   --2xl: 1536px;
   --primary-nav-width: 70px;
-  --aside-width: min(250px, 70%);
+  --aside-width: min(250px, 80%);
+  --cart-drawer-width: min(420px, 80%);
   --shop-hero-width: calc(
     (100vh + 30vh + var(--primary-nav-width)) -
       (100vh + var(--primary-nav-width))
@@ -54,7 +55,6 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
   font-family: var(--font-inter);
   font-size: 16px;
   max-width: var(--body-width);

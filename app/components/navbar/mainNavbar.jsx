@@ -1,16 +1,25 @@
 "use client";
-
+import { Badge } from "@nextui-org/react";
 import Link from "next/link";
 import { useState } from "react";
+import { CgShoppingBag } from "react-icons/cg";
+import { IoSearch } from "react-icons/io5";
+import { LiaUserCircleSolid } from "react-icons/lia";
 import navdata from "../../assets/mainNav";
+import CartDrawer from "../drawer/cartDrawer";
 import Logo from "../logo";
 // import
 
 function MainNavbar() {
   const [toggle, setToggle] = useState(false);
+  const [isCartOpen, setIsCartOpen] = useState(false);
 
   const toggleHandler = () => {
     setToggle(!toggle);
+  };
+
+  const cartOpenHandler = () => {
+    setIsCartOpen(!isCartOpen);
   };
 
   return (
@@ -54,23 +63,34 @@ function MainNavbar() {
 
           {/* left  menu  */}
           <div>
-            <ul className="flex items-center gap-4">
-              <li className="text-medium-icon">
-                <Link href={"/account"} prefetch aria-label="Search Icon">
-                  <i
-                    aria-hidden="true"
-                    className="fa-solid fa-magnifying-glass"
-                  ></i>
+            <ul className="inline-flex items-center gap-4">
+              <li className="text-medium-icon hidden md:block">
+                <Link
+                  href={"/account"}
+                  className="align-middle block pt-1"
+                  prefetch
+                  aria-label="Search Icon"
+                >
+                  <IoSearch />
                 </Link>
               </li>
-              <li className="text-medium-icon">
-                <button aria-label="Search Icon">
-                  <i aria-hidden="true" className="fa-solid fa-circle-user"></i>
+              <li className="text-medium-icon hidden md:block">
+                <button className="align-middle" aria-label="Search Icon">
+                  <LiaUserCircleSolid />
                 </button>
               </li>
               <li className="text-medium-icon">
-                <button type="button" aria-label="Cart Button">
-                  <i className="fa-solid fa-cart-shopping"></i>
+                <button
+                  type="button"
+                  className="align-middle  flex items-start justify-center"
+                  aria-label="Cart Button"
+                  onClick={cartOpenHandler}
+                >
+                  <Badge size="md" content="5">
+                    <span className="text-[21px]">
+                      <CgShoppingBag />
+                    </span>
+                  </Badge>
                 </button>
               </li>
             </ul>
@@ -125,6 +145,10 @@ function MainNavbar() {
           </div>
         </div>
       </div>
+
+      {/* cart drawer  */}
+
+      <CartDrawer isActive={isCartOpen} onClose={cartOpenHandler} />
     </>
   );
 }
