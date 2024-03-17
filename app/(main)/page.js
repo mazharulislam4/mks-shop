@@ -9,8 +9,8 @@ import Offer from "@/components/offer/offer";
 import Link from "next/link";
 import { IoIosArrowRoundForward } from "react-icons/io";
 
-
 export default function Home() {
+
   return (
     <>
       <section>

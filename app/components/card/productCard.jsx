@@ -3,6 +3,7 @@ import Link from "next/link";
 import { BiSolidStar } from "react-icons/bi";
 import glabss from "../../assets/product/glabss.png";
 
+
 function ProductCard({ minwidth }) {
   const widthStyle = { minWidth: minwidth ? minwidth + "px" : "100%" };
 

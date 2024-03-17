@@ -1,5 +1,5 @@
-import ProductsSection from "@/app/components/section/shop/productSection";
-import ShopTopBar from "@/app/components/topbar/shopTopbar";
+import ProductsSection from "@/components/section/shop/productSection";
+import ShopTopBar from "@/components/topbar/shopTopbar";
 
 export async function generateMetadata({ params, searchParams }, parent) {
   return {

@@ -1,12 +1,18 @@
-"use client"
-import { NextUIProvider } from '@nextui-org/react'
+"use client";
+import { NextUIProvider } from "@nextui-org/react";
 
-function Provider({children}) {
+function Provider({ children }) {
+
+  
+
+
   return (
-  <NextUIProvider>
-    {children}
-  </NextUIProvider>
-  )
+    <NextUIProvider>
+      <>
+        {children}
+      </>
+    </NextUIProvider>
+  );
 }
 
-export default Provider
+export default Provider;

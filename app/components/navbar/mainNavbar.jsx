@@ -1,4 +1,5 @@
 "use client";
+import { isLoggedIn } from "@/utils/utils";
 import { Badge } from "@nextui-org/react";
 import Link from "next/link";
 import { useState } from "react";
@@ -75,9 +76,12 @@ function MainNavbar() {
                 </Link>
               </li>
               <li className="text-medium-icon hidden md:block">
-                <button className="align-middle" aria-label="Search Icon">
+                {/* <button className="align-middle" aria-label="Search Icon">
                   <LiaUserCircleSolid />
-                </button>
+                </button> */}
+                <Link href={isLoggedIn() ? '/profile' : '/register'}>
+                  <LiaUserCircleSolid />
+                </Link>
               </li>
               <li className="text-medium-icon">
                 <button

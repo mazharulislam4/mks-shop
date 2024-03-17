@@ -1,3 +1,3 @@
 1/  Error Boundary setup 
 2/  After open main menu sidebar the overlay getting messy. fix it 
-3
+3/ password and number validation
